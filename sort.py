@@ -2,11 +2,11 @@ import pandas as pd
 import re
 
 # Read the Excel file containing the element properties table
-element_properties_file = 'element_properties_for_ML.xlsx'
+element_properties_file = 'element_Mendeleev_numbers.csv'
 element_properties_df = pd.read_excel(element_properties_file)
 
 # Define the column number for sorting
-sorting_column_number = 5 
+sorting_column_number = 1 
 
 element_data = dict(zip(element_properties_df.iloc[:, 0], element_properties_df.iloc[:, sorting_column_number]))
 
