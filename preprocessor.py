@@ -5,7 +5,7 @@ import os
 # User-configurable settings
 element_file = 'periodic_table.xlsx'  # File containing valid elements
 properties_file = 'element_Mendeleev_numbers.csv'  # File containing element properties
-input_file = 'Test_binary.xlsx'  # Input Excel file with formulas
+input_file = 'Cu-type.xlsx'  # Input Excel file with formulas
 max_elements = 3  # Maximum number of elements allowed in a formula
 sorting_column_number = 1  # Column in the properties file to sort elements
 element_sheet = None  # Set to None for CSV or specify sheet for Excel
