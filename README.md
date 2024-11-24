@@ -19,3 +19,9 @@ python preprocessor.py
 ```
 4. Choose the table (sheet in the periodic_table.xlsx file that you want to preprocess to
 5. Check the filtered output file (name_preprocessed.xlsx) in the same directory. 
+
+## Requirements
+
+```
+pip install pandas openpyxl
+```
