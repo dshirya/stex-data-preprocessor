@@ -69,4 +69,3 @@ if __name__ == "__main__":
     # Initialize and process
     fh = FormulaHandler(element_file, properties_file, max_elements, element_sheet)
     fh.process_all_sheets(input_file)
-    print(f"Filtering complete. Output saved with '_filtered' suffix.")
